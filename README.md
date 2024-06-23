@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves the implementation of a simple shell program as part of the Operating Systems course (0368-2162). The shell supports basic functionalities such as executing commands, handling background processes, piping commands, and redirecting output. The primary objective is to gain practical experience with process management, system calls, and signal handling in a Unix-like operating system.
+This project involves the implementation of a simple shell program. The shell supports basic functionalities such as executing commands, handling background processes, piping commands, and redirecting output. 
 
 ## Features
 
