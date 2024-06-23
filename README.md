@@ -1,6 +1,6 @@
 ## Mini Shell 
 
-## Overview
+## Project Overview
 
 This project involves the implementation of a simple shell program. The shell supports basic functionalities such as executing commands, handling background processes, piping commands, and redirecting output. 
 
@@ -27,7 +27,7 @@ This project involves the implementation of a simple shell program. The shell su
    - Used for any necessary initialization.
    - Returns `0` on success, otherwise indicates an error.
 
-2. **int process_arglist(int count, char **arglist)**
+2. ***int process_arglist(int count, char **arglist)**
    - Handles the core functionality of executing commands.
    - Manages background execution, piping, and output redirection.
    - Returns `1` if no error occurs, otherwise returns `0`.
