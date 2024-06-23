@@ -54,4 +54,4 @@ To compile the program, use the following command:
 
 gcc -O3 -D_POSIX_C_SOURCE=200809 -Wall -std=c11 shell.c myshell.c -o myshell
 
-## (This assignment is part of the Operating Systems course at Tel Aviv University).
+## (This project is part of the Operating Systems course at Tel Aviv University).
