@@ -6,10 +6,10 @@ This project involves the implementation of a simple shell program. The shell su
 
 ## Features
 
-- **Executing Commands:** Run programs with arguments, e.g., `sleep 10`.
-- **Background Execution:** Run commands in the background using `&`, e.g., `sleep 10 &`.
-- **Single Piping:** Pipe the output of one command to another, e.g., `cat foo.txt | grep bar`.
-- **Output Redirection:** Redirect the output of a command to a file using `>`, e.g., `cat foo > file.txt`.
+- Executing Commands: Run programs with arguments, e.g., `sleep 10`.
+- Background Execution: Run commands in the background using `&`, e.g., `sleep 10 &`.
+- Single Piping: Pipe the output of one command to another, e.g., `cat foo.txt | grep bar`.
+- Output Redirection: Redirect the output of a command to a file using `>`, e.g., `cat foo > file.txt`.
 
 ## Assumptions
 
@@ -22,17 +22,17 @@ This project involves the implementation of a simple shell program. The shell su
 
 ### Functions
 
-1. **int prepare(void)**
+1. int prepare(void)
    - Called before the first invocation of `process_arglist()`.
    - Used for any necessary initialization.
    - Returns `0` on success, otherwise indicates an error.
 
-2. ***int process_arglist(int count, char **arglist)**
+2. int process_arglist(int count, char **arglist)
    - Handles the core functionality of executing commands.
    - Manages background execution, piping, and output redirection.
    - Returns `1` if no error occurs, otherwise returns `0`.
 
-3. **int finalize(void)**
+3. int finalize(void)
    - Called before the shell exits.
    - Used for any necessary cleanup.
    - Returns `0` on success, otherwise indicates an error.
